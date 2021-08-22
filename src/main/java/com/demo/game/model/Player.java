@@ -11,6 +11,11 @@ public class Player {
 		this.turn = false;
 	}
 	
+	public Player() {
+		super();
+	}
+
+	//	Switch player's turn
 	public void changeTurn() {
 		if(turn) {
 			turn = false;
